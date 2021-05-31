@@ -30,11 +30,11 @@ else
 		else
 			apt install python3 python3-pip dos2unix
 			pip3 install requests colorama proxyscrape
-			cp ~/spymer/spammer.py $PREFIX/bin/spymer
-			dos2unix $RPEFIX/bin/spymer
-			chmod 777 $RPEFIX/bin/spymer
-			chmod -R 777 ~/spymer
-			spymer
+			cp ~/add/add.py $PREFIX/bin/add
+			dos2unix $RPEFIX/bin/add
+			chmod 777 $RPEFIX/bin/add
+			chmod -R 777 ~/add
+			add
 		fi
 	else
 		if [ $numb = "3" ] 
@@ -45,10 +45,10 @@ else
 			pip3 install requests
 			pip3 install colorama
 			pip3 install proxyscrape
-			cp ~/spymer/spammer.py /usr/bin/spymer
-			dos2unix /usr/bin/spymer
-			chmod 777 /usr/bin/spymer
-			spymer
+			cp ~/add/add.py /usr/bin/add
+			dos2unix /usr/bin/add
+			chmod 777 /usr/bin/add
+			add
 		else
 			echo "Некорректный ввод"
 		fi
